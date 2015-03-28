@@ -13,4 +13,5 @@ Pod::Spec.new do |spec|
   spec.source             = { :git => "https://github.com/dogo/SCLAlertView.git", :tag => spec.version.to_s }
   spec.source_files       = "SCLAlertView/*"
   spec.requires_arc       = true
+  spec.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'Accelerate'
 end

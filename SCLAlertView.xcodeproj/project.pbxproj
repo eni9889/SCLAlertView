@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		478A2AAE1AC73384005C8D6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478A2AAD1AC73384005C8D6C /* UIKit.framework */; };
+		478A2AB11AC73388005C8D6C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478A2AAF1AC73388005C8D6C /* AVFoundation.framework */; };
+		478A2AB21AC73388005C8D6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478A2AB01AC73388005C8D6C /* Foundation.framework */; };
+		478A2AB41AC7338C005C8D6C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478A2AB31AC7338C005C8D6C /* Accelerate.framework */; };
 		DD2E172A19FA84B800CBAEC3 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2E172919FA84B800CBAEC3 /* UIImage+ImageEffects.m */; };
 		DD4BA9C119DED8EF008D73EB /* right_answer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD4BA9C019DED8EF008D73EB /* right_answer.mp3 */; };
 		DD7282B919D6087C00077F54 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7282B719D6087C00077F54 /* Storyboard.storyboard */; };
@@ -32,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		478A2AAD1AC73384005C8D6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		478A2AAF1AC73388005C8D6C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		478A2AB01AC73388005C8D6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		478A2AB31AC7338C005C8D6C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		DD0D295B19D902DA00881F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SCLAlertViewExample/Info.plist; sourceTree = SOURCE_ROOT; };
 		DD2E172819FA84B800CBAEC3 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		DD2E172919FA84B800CBAEC3 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
@@ -64,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478A2AB41AC7338C005C8D6C /* Accelerate.framework in Frameworks */,
+				478A2AB11AC73388005C8D6C /* AVFoundation.framework in Frameworks */,
+				478A2AB21AC73388005C8D6C /* Foundation.framework in Frameworks */,
+				478A2AAE1AC73384005C8D6C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +101,10 @@
 		DDB15F9419D5B7C600173158 = {
 			isa = PBXGroup;
 			children = (
+				478A2AB31AC7338C005C8D6C /* Accelerate.framework */,
+				478A2AAF1AC73388005C8D6C /* AVFoundation.framework */,
+				478A2AB01AC73388005C8D6C /* Foundation.framework */,
+				478A2AAD1AC73384005C8D6C /* UIKit.framework */,
 				DDB15FD519D5B96500173158 /* SCLAlertView */,
 				DDB15F9F19D5B7C600173158 /* SCLAlertViewExample */,
 				DDB15FB919D5B7C600173158 /* SCLAlertViewTests */,

@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 AnyKey Entertainment. All rights reserved.
 //
 
-@import Foundation;
-@import UIKit;
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface SCLAlertViewStyleKit : NSObject
 
